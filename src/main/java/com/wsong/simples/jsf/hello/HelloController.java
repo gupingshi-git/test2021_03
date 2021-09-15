@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-@ManagedBean(name = "helloController")
+@ManagedBean(name = "hello1111Controller")
 @RequestScoped
 public class HelloController implements Serializable {
     /**
@@ -24,7 +24,7 @@ public class HelloController implements Serializable {
     }
 
     public void setHelloStr(String helloStr) {
-	this.helloStr = "test"+helloStr;
+	this.helloStr = "test111"+helloStr;
     }
  
     public BigDecimal getPrice() {
