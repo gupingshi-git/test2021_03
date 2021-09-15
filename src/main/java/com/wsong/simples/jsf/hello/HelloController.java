@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
-@ManagedBean(name = "hello1111Controller")
+@ManagedBean(name = "hello1111111Controller")
 @RequestScoped
 public class HelloController implements Serializable {
     /**
